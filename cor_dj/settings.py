@@ -26,9 +26,8 @@ SECRET_KEY = 'uydh9ede($$ng2^)v@c7qjx0kv)opwdej&6!^2!gbg%t-zcraq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [
-'demo-djan.herokuapp.com', '127.0.0.1/',
-]
+ALLOWED_HOSTS = ['demo-djan.herokuapp.com', '127.0.0.1',]
+
 
 
 # Application definition
@@ -40,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'dja_app'
+    'To_do'
 ]
 
 MIDDLEWARE = [
