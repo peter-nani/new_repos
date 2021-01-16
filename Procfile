@@ -1,1 +1,1 @@
-web: gunicorn cor_dj.wsgi --log-file -
+web: gunicorn cor_dj.wsgi:application --log-file -
